@@ -1,0 +1,26 @@
+.dupa {
+    margin: 20px;
+}
+
+.grid-container {
+    width: 600px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4, 100px);
+}
+
+.grid-item {
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+}
+
+.grid-item-input {
+    grid-column: 1 / 6;
+    grid-row: 1;
+    z-index: 10;
+}
+
+body {
+    background-color: blue;
+}
